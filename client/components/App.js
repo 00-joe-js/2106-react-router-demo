@@ -2,16 +2,17 @@ import React from "react";
 
 import {Link, Route, Switch} from "react-router-dom";
 
-const Fire = () => {
-    return (
-        <ul>
-            <li>Charmander</li>
-            <li>Flareon</li>
-            <li>Firedude</li>
-            <li>Cyndaquil</li>
-        </ul>
-    );
-};
+class Fire extends React.Component {
+    render() {
+        return (
+            <ul>
+                <li>Charmander</li>
+                <li>Firedude</li>
+                <li>Vulpix</li>
+            </ul>
+        );
+    }
+}
 
 const Grass = () => {
     return (
